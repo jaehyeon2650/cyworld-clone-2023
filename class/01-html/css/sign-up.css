@@ -1,0 +1,63 @@
+#sign-up {
+    padding: 72px 104px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-up__page {
+    box-sizing: border-box;
+    padding: 72px 104px;
+    border: 1px solid #AACDFF;
+    width: 670px;
+    height: 960px;
+    box-shadow: 7px 7px 39px rgba(0, 104, 255, 0.25);
+}
+
+.sign-up__row {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+
+.sign-up__row input {
+    border: none;
+    padding: 20px 0px;
+    border-bottom: 1px solid #0068FF;
+}
+
+.sign-up__row span {
+    margin-bottom: 10px;
+    color: #797979;
+}
+
+.sign-up__page__title {
+    margin-bottom: 72px;
+    color: #0068FF;
+}
+
+.sign-up__gender {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+.sign-up__check {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #0068FF;
+    font-size: 13px;
+}
+
+.sign-up__gender__column {
+    margin: 0px 10px;
+}
+
+input[type="button"] {
+    margin-top: 30px;
+    width: 470px;
+    height: 75px;
+    border-radius: 10px;
+    color: #0068FF;
+    background-color: white;
+    border: 1px solid #0068FF;
+}

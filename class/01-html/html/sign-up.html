@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <link href="../css/sign-up.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+</head>
+
+<body id="sign-up">
+    <form class="sign-up__page">
+        <h1 class="sign-up__page__title">회원 가입을 위해<br>정보를 입력해주세요</h1>
+        <div class="sign-up__row">
+            <span><sup>*</sup>이메일</span>
+            <input type="email" placeholder="이메일을 입력하세요" />
+        </div>
+        <div class="sign-up__row">
+            <span><sup>*</sup>이름</span>
+            <input type="text" placeholder="이름을 입력하세요" />
+        </div>
+        <div class="sign-up__row">
+            <span><sup>*</sup>비밀번호</span>
+            <input type="password" placeholder="비밀번호를 입력하세요" />
+        </div>
+        <div class="sign-up__row">
+            <span><sup>*</sup>비밀번호 확인</span>
+            <input type="password" placeholder="비밀번호를 다시 입력하세요" />
+        </div>
+        <div class="sign-up__gender">
+            <div class="sign-up__gender__column">
+                <input type="radio" name="gender" /><span>여성</span>
+            </div>
+            <div class="sign-up__gender__column">
+                <input type="radio" name="gender" /><span>남성</span>
+            </div>
+        </div>
+        <div class="sign-up__check">
+            <input type="checkbox" /><span>이용약관 개인정보 수집 및 이용, 마케팅 활용 선택에 모두 동의합니다.</span>
+        </div>
+        <input type="button" value="가입하기" />
+
+
+    </form>
+</body>
+
+</html>
