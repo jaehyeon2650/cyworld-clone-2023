@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+.game-header {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.game-header span:first-child {
+    font-size: 15px;
+    margin-right: 5px;
+    font-weight: 600;
+    color: #55B2D4;
+}
+
+.game-header span:last-child {
+    font-size: 6px;
+    font-weight: 600;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-box {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    width: 250px;
+    height: 168px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.game__input {
+    display: flex;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.game-box img {
+    margin-bottom: 8px;
+}
+
+.game__title {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.game__subtitle {
+    font-size: 9px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.game__input input {
+    width: 80%;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 12px;
+    padding: 5px 8px;
+    font-weight: 600;
+    border: 1px solid black;
+}
+
+.game__input button {
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 20%;
+}
+
+.game__result {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.lotto-box {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    width: 250px;
+    height: 168px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.lotto {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #FFE400;
+    font-size: 8px;
+    padding: 5px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.lotto__button {
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+}

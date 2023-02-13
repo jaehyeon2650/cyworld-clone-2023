@@ -32,7 +32,7 @@
 .wrapper__right {
     width: 524px;
     height: 472px;
-
+    padding: 0px 0px 25px 0px;
 }
 
 .wrapper__left__header {
@@ -94,4 +94,37 @@
     width: 100%;
     color: gray;
     padding: 2px;
+}
+
+.wrapper__right__header {
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: #55B2D4;
+    padding-bottom: 10px;
+
+}
+
+.wrapper__header__main {
+    padding-left: 30px;
+    font-weight: 600;
+}
+
+.wrapper__header__title {
+    font-size: 12px;
+}
+
+.wrapper__right__body {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 3px;
+    padding: 10px 30px;
+}
+
+.wrapper__right__body iframe {
+    width: 100%;
+    height: 100%;
 }
