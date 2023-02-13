@@ -1,0 +1,117 @@
+.wrapper__body__music {
+    margin-bottom: 40px;
+}
+
+.music__header {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.music__header span:first-child {
+    font-size: 15px;
+    margin-right: 5px;
+    font-weight: 600;
+    color: #55B2D4;
+}
+
+.music__header span:last-child {
+    font-size: 6px;
+    font-weight: 600;
+}
+
+.music__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.music {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    margin-bottom: 10px;
+}
+
+.music span:nth-child(2) {
+    color: #28596F;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.music span:last-child {
+    font-size: 8px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.music div {
+    width: 120px;
+    height: 120px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer__header {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.footer__header span:first-child {
+    font-size: 15px;
+    margin-right: 5px;
+    font-weight: 600;
+    color: #55B2D4;
+}
+
+.footer__header span:last-child {
+    font-size: 6px;
+    font-weight: 600;
+}
+
+.list__column {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 9fr 4fr;
+    font-size: 10px;
+}
+
+.list__column:first-child {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-left: none;
+    border-right: none;
+    border-top: 1.5px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.5);
+}
+
+.list__column span {
+    align-self: center;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+}
+
+.list__column span:nth-child(2),
+.list__column span:first-child {
+    justify-self: center;
+}
+
+.list__column:not(.list__column:first-child) {
+    border-bottom: 1px dashed black;
+}
+
+.list__column:not(.list__column:first-child) span:nth-child(3),
+.list__column:not(.list__column:first-child) span:last-child {
+    color: #7A98A5;
+}
