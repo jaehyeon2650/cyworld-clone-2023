@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="final.css" rel="stylesheet" />
+    <title>login-page</title>
+</head>
+
+<body class="body">
+    <div class="login-form">
+        <h1>코드캠프 회원가입</h1>
+        <input class="email" type="email" placeholder="이메일을 입력해 주세요." />
+        <span class="email-span warning"></span>
+        <input class="name" type="text" placeholder="이름을 입력해 주세요." />
+        <span class="name-span warning"></span>
+        <input class="password" type="password" placeholder="비밀번호를 입력해 주세요." />
+        <span class="password-span warning"></span>
+        <input class="passwordcheck" type="password" placeholder="비밀번호를 다시 입력해 주세요." />
+        <span class="passwordcheck-span warning"></span>
+        <div class="number-input">
+            <input id="first" type="text" maxlength="3" /> -
+            <input id="second" type="text" maxlength="4" /> -
+            <input id="third" type="text" maxlength="4" />
+        </div>
+        <div class="number-check">
+            <div class="number-make">
+                <span>000000</span>
+                <button disabled>인증번호 전송</button>
+            </div>
+            <div class="number-ok">
+                <span>0:00</span>
+                <button disabled>인증 완료</button>
+            </div>
+        </div>
+        <select class="location">
+            <option disabled selected>지역을 선택하세요.</option>
+            <option>인천</option>
+            <option>서울</option>
+            <option>부산</option>
+        </select>
+        <span class="location-span warning"></span>
+        <div class="gender">
+            <div class="gender-box">
+                <input type="radio" name="gender" /><span>여성</span>
+                <input type="radio" name="gender" /><span>남성</span>
+            </div>
+            <div class="gender-span warning"></div>
+        </div>
+        <button class="join-button" disabled>가입하기</button>
+    </div>
+    <script src="final.js"></script>
+</body>
+
+</html>
